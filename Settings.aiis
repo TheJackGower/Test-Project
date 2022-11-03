@@ -220,11 +220,11 @@
     "SourceControlRepository": {
       "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
       "__value": {
-        "RemotePath": "https://github.com/TheJackGower/Test-Project",
+        "RemotePath": "C:\\Users\\jack.gower\\Documents\\Test Studio Projects\\CompleatWebTest",
         "ServerInfo": {
           "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
           "__value": {
-            "ServerName": "https://github.com/TheJackGower/Test-Project"
+            "ServerName": "C:\\Users\\jack.gower\\Documents\\Test Studio Projects\\CompleatWebTest"
           }
         },
         "ServerType": 2
