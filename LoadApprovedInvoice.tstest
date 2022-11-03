@@ -16,22 +16,19 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "01c35de4-731d-495a-bb88-f7ac01039a4d",
-            "Description": "Navigate to : 'https://icompleatcentralportal-qa.azurewebsites.net'",
+            "Runtime ID": "596b521b-d380-4345-befb-631b9e698a04",
+            "Description": "Execute test 'Navigate to login screen'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
-                "UseDecodedUrl": true,
-                "NavigateURL": "https://icompleatcentralportal-qa.azurewebsites.net",
-                "BaseUrl": "",
-                "SearchByImageFirst": 0,
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "UsejQuery": false,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
+                "SearchByImageFirst": 0,
+                "TestName": "Navigate to login screen",
+                "TestPath": "Navigate to login screen.tstest",
+                "TestUniqueId": "f9dd584b-a9f0-4598-9f42-966c8b8ed197",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -52,7 +49,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoadApprovedInvoicepygqenn0.1yz",
+            "StepImageKey": "LoadApprovedInvoice1wlrbg2h.rec",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -61,35 +58,20 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "f46eab07-2001-40d4-ba36-933d1413d33e",
-            "Description": "Enter text 'garethtenantone@qa.com' in 'EmailText'",
+            "Runtime ID": "08dc2b64-5fb1-4924-9394-3177c396cad1",
+            "Description": "Execute test 'LoginAsGarethTenantOne'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
-                "RawText": "garethtenantone@qa.com",
-                "SimulateRealTyping": true,
-                "TypingSpeed": 50,
-                "KeyHoldTime": 100,
-                "IsPassword": false,
-                "TypingInfo": {
-                  "ElementText": "ga",
-                  "TypedText": "ga",
-                  "CaretPosition": 2,
-                  "IsTextArea": false,
-                  "IsBackSpace": false
-                },
-                "Encrypt": false,
-                "SupportUnicode": true,
-                "ScrollToVisibleType": 2,
-                "UsejQuery": false,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "SearchByImageFirst": 0,
+                "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
+                "WaitOnElements": false,
+                "SearchByImageFirst": 0,
+                "TestName": "LoginAsGarethTenantOne",
+                "TestPath": "LoginAsGarethTenantOne.tstest",
+                "TestUniqueId": "7c98d58d-310e-46f3-92b6-5dd1bcced3ca",
+                "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
@@ -97,93 +79,11 @@
                     "ConstraintValues": {}
                   }
                 },
-                "Elements": {
-                  "textTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "textTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://icompleatcentralportal-qa.azurewebsites.net/",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Login",
-                          "CompareMode": 1,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login"
-                        }
-                      },
-                      "Frame": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "zXXyhyVSMTFKT7do0Q09PiRY0DA=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "EmailText",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "name=email"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=input"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
-                          "ImageSearchClauses": [
-                            {
-                              "__type": "ArtOfTest.Common.ImageSearchClause",
-                              "__value": {
-                                "Resolution": "1920, 1080",
-                                "BroweserType": 7,
-                                "Image": "FFE46FC9B7DA67B8A24E7F374580A445B9FD2DA66753EB5948E4391000E188B4",
-                                "Index": 5,
-                                "MatchThreshold": 90,
-                                "OsVersion": "10.0.19044.0",
-                                "ScreenScale": 1.0,
-                                "ScrollOnImageSearch": null
-                              }
-                            }
-                          ],
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
+                "Elements": {},
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {},
-                "_canEncrypt": false,
-                "_cipher": null
+                "DataBindingExpressions": {}
               }
             },
             "Enabled": true,
@@ -191,7 +91,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoadApprovedInvoiceyqt2ykl2.w55",
+            "StepImageKey": "LoadApprovedInvoicerjboiap4.o3l",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
